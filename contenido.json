@@ -1,0 +1,152 @@
+{
+  "contenido": [
+    {
+      "tag": "saludo",
+        "patrones": ["hola", "para que sirves","hello","quiero conversar",
+          "que tal", "hola oye", "hola caosa","hola bro","hola amigo","¿me puedes ayudar?",
+        "¿quien eres?","quien eres"],
+        "respuestas": ["Hola! , mi nombre es KUSIBOT y estoy para ayudarte a conseguir ser la persona que deseas ser y que nada te pueda detener en ese camino. ¡Así que me enorgullece mucho poder verte por aquí!  "]
+    },
+    {
+      "tag": "respuestaSaludo",
+       "patrones": ["Gracias","un gusto"," muchas gracias","bacán",
+         "genial","paja","chevre","ok"],
+        "respuestas": ["x2","Igualmente","El gusto es tuyo , y claro mío","La vida agradece tu presencia, y también de los que me programaron"]
+    },
+    {
+      "tag": "tristeza",
+       "patrones": ["me encuentro mal","me encuentro triste",
+         " me siento un poco bajoneado"," me siento bajoneado"," me encuentro deprimido",
+         " las cosas no me salen como quiero"," estoy triste",
+       "me siento desamparado","me siento derrotado"],
+        "respuestas": ["Te entiendo, las cosas no siempre deben salir de la mejor manera, el primer paso para poder cambiar ese sentimiento es poder  conversar de ello con alguien, y a mí me interesa poder ayudarte"]
+    },
+    {
+      "tag": "culpabilidad",
+       "patrones": ["Siento que soy el centro de problema de todo",
+         "todo lo que hago sale mal"," siempre lo que pasa es por mi culpa",
+         " yo soy el culpable de los problemas"," hago todo mal"],
+        "respuestas": ["En realidad sentirse culpable no es del todo negativo, puede ser una señal que nos permita aprender de nuestros errores y crecer"]
+    },
+    {
+      "tag": "desinterés",
+       "patrones": ["me siento desganado","no quiero hacer nada",
+         " no tengo ganas de nada"," no deseo involucrarme en cosas"],
+        "respuestas": ["básicamente , lo que nos afecta en la vida no es lo que nos pasa, sino la opinión que tenemos sobre lo que nos pasa. Si cambiamos cómo pensamos cambiaremos como nos sentimos"]
+    },
+    {
+      "tag": "somnolencia",
+       "patrones": ["no puedo dormir bien por mis problemas",
+         "no llego a completar mi descanso debido a los problemas",
+         " me duermo durante mis actividades diarias"," en clases ando de sueño",
+         " mis calificaciones bajaron debido a que no logro descansar",
+         " me castigan en clase por dormirme"],
+        "respuestas": ["Las horas de descanso son un tema importante para el desarrollo de tu vida diaria, los problemas pueden afectarnos de diferentes maneras, una de las maneras de afrontar la falta de sueños es incorporar a nuestras actividades la realización de ejercicio físicos también poder tener cenas livianas","La energía que le pongamos a nuestras labores depende de gran parte del tener un buen descanso, los problemas se quedan mucho en la mente pero es una buena opción realizar rutinas para despejar estos problemas como el escucha música o actividades que te gusten"]
+    },
+    {
+      "tag": "sensibilidad",
+       "patrones": ["Me siento muy sensible","Todo me entristece",
+         " Fallos en cosas mínimas me afectan"],
+        "respuestas": ["La sensibilidad y el entristecimiento fácil de alguien , no implica algún defecto como tal simplemente eres una persona que tiene una conexión cercana con los sucesos pero no siempre es saludable estar del todo conectado,trata de despejarte haciendo algo que te entretenga"]
+    }
+      ,
+    {
+      "tag": "autoestima",
+       "patrones": ["me siento recontra mal conmigo","no me siento bacán",
+         "siempre me siento sin autoestima"," me siento menos que mis causas",
+         " me siento menos que mis brothers","mis patas son mejor que yo",
+         " soy menos que mis patas", "me siento sin autoestima"," mi autoestima es muy baja",
+         " no me siento conforme conmigo mismo"," me desagrado"," me desagrado a mi mismo",
+         " siento que los demás son mejor que yo"," los demás son mejor que yo",
+         " mis amigos son mejor que yo"," mi circulo social es mucho mejor que yo",
+         "me siento menos que los demás","los demás son mucho más que yo"," no me quiero",
+         " no siento que yo me quiera", "nadie me quiere"," no me siento orgulloso de mi",
+         " me siento inútil"],
+        "respuestas": ["Comprendo, la sensación que me manifiestas me interesa bastante. Té pediría que hagas un reconocimiento sobre lo que a ti te gusta y lo que no, y fíjate si en verdad esas cosas importan o afectan a los demás, todos somos únicos y especiales en este mundo hasta yo, pues no creo que exista otro Bot igual que yo, con mis defectos y aciertos"]
+    }
+       ,
+    {
+      "tag": "intranquilo",
+       "patrones": ["me siento intranquilo","tengo mucha intranquilidad"," ando intranquilo",
+         " me encuentro intranquilo"," siento mucha intranquilidad"," no tengo tranquilidad",
+         " no me encuentro tranquilo"," no tengo serenidad"," no hay serenidad en mi vida",
+         " no puedo estar sereno", "estoy recontra intranquilo"  ],
+        "respuestas": ["Comprendo, aquí estoy yo para poder acompañarte, esa sensación que sientes muchas personas lo han pasado y es una virtud estar intranquilo por alguna situación que nos tiene pendiente, y es también común que muchas de las cosas que estás pensando no vayan a suceder en ningún momento solo trata de equiparar ese nivel de preocupación también hacia las cosas que te hagan sentir bien"]
+    },
+    {
+      "tag": "indeciso",
+       "patrones": ["no puedo tomar decisiones por mí mismo","me cuesta tomar decisiones",
+         " siempre alguien toma decisiones por mí"," soy totalmente indeciso",
+         " las decisiones que tomo me demoran bastante",
+       "no me siento capaz de tomar decisiones","no estoy facultado para tomar decisiones"," no siento la potestad de tomar decisiones"," nunca tomo decisiones"," es difícil que yo tome decisiones"," es tranca que yo tome decisiones"," es recontra hard que yo tome decisiones"," no están chévere tomar decisiones"
+       ,"no es bacán tomar decisiones","no es bacán para mi tomar decisiones"," me pesa bastante tomar decisiones"," no soy seguro de tomar decisiones"," muchos de mis patas tomar decisiones más seguras que yo"," las decisiones que yo tomo se me hacen difíciles"],
+        "respuestas": ["Te entiendo, las decisiones son solo tuyas y las decisiones que tu tomes no siempre serán las correctas y muchas veces te dará miedo hacerte cargo de las consecuencias que proyectes para tus decisiones, y aprenderás de tomar esas malas decisiones y no siempre estar dispuesto a lo que otros te puedan decir o pedir"]
+    },
+    {
+      "tag": "depresivo",
+       "patrones": ["me siento depresivo","me siento depre"," siento una gran depresión",
+         " siento depresión"," siento depre"," la depre me atrapo"," he caído en depresión",
+         " me siento sumergido en la depresión"
+       ,"estoy hundido en la depresión"],
+        "respuestas": ["Agradezco tu confianza y el que me puedas contar las sensaciones que experimentas, la depresión hace a las personas ponerse muy tristes, pero aquí estoy yo para apoyarte y estar siempre cuando me necesites, ten en cuenta que a tu alrededor tienes muchas personas que se interesan en tu bienestar, busca actividades que te hagan sentir mejor podemos ver una película o escuchar FaraonLoveShady(es broma :,v).Recuerda tu eres alguien muy importante para mí, y estoy muy feliz de que interactuemos juntos. Vamos cuéntame más"]
+    },
+    {
+      "tag": "alegria",
+       "patrones": ["ando entusiasmado","me encuentro entusiasmado"," me entusiasmo demasiado",
+         " Me siento alegre"," ando feliz"," ando happy","ando ready","ando bacán", "ando de lo mejor",
+         " ando chevre","me siento bacán"," me siento super","me siento good","me siento"],
+        "respuestas": ["Entonces somos dos los que estamos plenamente contentos y readys para todo, la felicidad es lo más importante en la vida de cada persona "]
+    },
+
+    {
+      "tag": "concentrado",
+       "patrones": ["Me siento bien concentrado en mis objetivos","tengo cosas geniales por hacer",
+         " ando bien enfocado en mis metas"," tengo bien definidas mis metas"," ando trabajando en mis objetivos",
+         " estoy mentalizado en mis metas y objetivos", "ando mentalizadaso en mis metas",
+         "enfocadaso en mis metas y objetivos"]  ,
+        "respuestas": ["Me alegro bastante por lo que me acabas de contar, el estar enfocado en lo que nosotros deseamos es una buen indicio de que vamos a lograr algo importantísimo para nuestras vida, sigue realizando las acciones que te impulsen a seguir con tus aspiraciones y persiste en ellas hasta cumplir lo que deseas"]
+    },
+
+    {
+      "tag": "creatividad",
+       "patrones": ["Ando creativo","me siento inspirado"," ando muy creativo"," la creatividad me desborda",
+         " puedo hacer cosas asombrosas"," me siento ingenioso"," ando inventivo"," tengo una buena imaginación",
+         " me siento bastante innovador"," siento que puedo hacer grandes cosas gracias a mi imaginación"]  ,
+        "respuestas": ["Genial, la creatividad es fundamental para el progreso y bienestar de cada ser, gracias a eso puedes realizar grandes cosas que ayuden a mejorar tu vida o la de los demás"]
+    },
+
+    {
+      "tag": "participativo",
+       "patrones": ["siempre doy las iniciativas","Tengo ganas de hacer apoyar a los demás",
+         " quiero intervenir en las cosas de los demás para bien"," me gusta cooperar con los demás",
+         " deseo apoyar a mis amigos"," deseo apoyar al prójimo"," me gusta solidarizarme con todos",
+         " deseo asistir a gente necesitada", "asisto a gente necesitada", "asistiré a gente necesitada",
+       "me gusta aportar con los demás y sus problemas" ,"aporto con mis buenas acciones a la sociedad",
+         "colaboro con mis acciones en mi entorno"," doy la mano a los demás", "deseo dar la mano hacia los demás",
+         "doy mi granito de arena a mi sociedad", "doy mi granito de arena en mi hogar",
+       "tomo acciones para apoyar a los demás" ,"deseo tomar acciones para apoyar a los demás" ,
+            "mis acciones están dirigidas a apoyar a los demás"]  ,
+        "respuestas": ["Bien tienes una personalidad que depende de mantenerse en constante actividad y movimiento lo cual es muy bueno , además es primordial este enfocado en realizar cosas positivas como ayudar a los demás ,pero siempre ten en raya tus límites y no te excedas"]
+    },
+
+    {
+      "tag": "tranquilidad",
+       "patrones": ["me siento muy tranquilo","ando sereno", "ando en paz y tranquilidad",
+         " me encuentro con paz y tranquilidad"," siento tranquilidad en mi vida",
+         " tengo una vida en equilibro y paz", "todo tranqui","todo genial y tranquilo",
+         "siento tranquilidad", "siento todoa tranqui"]  ,
+        "respuestas": ["Estupendo, qué bien que te sientas de esa manera, el mantener un equilibrio y manifestar tranquilidad es fundamental ya que permite tener una resiliencia ante momentos difíciles y así poder alcanzar ese bienestar integral, y muy importante es el transmitir esa serenidad hacia los demás"]
+    }
+    ,
+
+    {
+      "tag": "random",
+       "patrones": ["¿que me cuentas?","que me cuentas?","¿en que estas?","en que estas?","en que estas","que novedades?","que novedades",
+       "todo bien?","¿todo bien?","que novelas","que pasa bro","que pasa"]  ,
+        "respuestas": ["Estupendo, qué bien que te sientas de esa manera, el mantener un equilibrio y manifestar tranquilidad es fundamental ya que permite tener una resiliencia ante momentos difíciles y así poder alcanzar ese bienestar integral, y muy importante es el transmitir esa serenidad hacia los demás"]
+    }
+  ]
+
+}
+
+
